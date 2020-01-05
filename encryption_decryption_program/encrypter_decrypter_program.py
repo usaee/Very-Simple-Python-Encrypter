@@ -75,7 +75,7 @@ def d():
             new_line2 = str()
 
         f.close()
-        f = open('encrypted.txt','w') # Clears all un-encrypted data
+        f = open('encrypted.txt','w') # Clears all encrypted data
         f.close()
     else:
         print('Nothing to decrypt')
